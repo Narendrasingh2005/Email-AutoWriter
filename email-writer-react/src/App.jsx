@@ -1,3 +1,7 @@
+import { TextField } from '@mui/material';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 import './App.css';
 
@@ -9,9 +13,22 @@ function App() {
   const[error,setError] = useState('');
 
   return (
-    <>
-        <p>Hello</p>
-    </>
+      <Container maxWidth='md' sx={{py:4}}>
+        <Typography variant="h3" component="h1" gutterBottom>
+          Email Reply Generator
+        </Typography>
+
+        <Box sx={{mx:3}}>
+          <TextField fullWidth multiline rows={6}
+            variant='outlined'
+            label="Original Email Content"
+            value={emailContent || ''}
+            onChange={(e)=>setEmailContent(e.target.value)}
+            sx = {{mb:2}}
+            />
+        </Box>
+
+      </Container>
   )
 }
 
