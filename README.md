@@ -24,6 +24,7 @@ It allows you to run a standalone web UI **or** install as a **Gmail extension**
 - **Chrome Extension (Manifest V3)**
 
 ---
+![Uploading Screenshot 2025-08-29 224713.png…]()
 
 ## 📂 Project Structure
 email-autowriter/
