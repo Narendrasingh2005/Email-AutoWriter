@@ -26,3 +26,26 @@ It allows you to run a standalone web UI **or** install as a **Gmail extension**
 ---
 
 ## 📂 Project Structure
+email-autowriter/
+├── backend/
+│ ├── src/main/java/com/email/autowriter/
+│ │ ├── EmailAutoWriterApplication.java
+│ │ └── app/
+│ │ ├── EmailGeneratorController.java
+│ │ ├── EmailGeneratorService.java
+│ │ ├── EmailRequest.java
+│ ├── src/main/resources/
+│ │ └── application.properties
+│ └── pom.xml
+│
+├── frontend/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── extension/ # Gmail Chrome Extension
+│ ├── manifest.json
+│ ├── content.js
+│ ├── popup.html
+│ ├── popup.js
+│ └── icon.png
