@@ -10,7 +10,8 @@
 ---
 
 ## 📸 Preview
-<img width="1148" height="857" alt="Email AutoWriter Screenshot" src="./snapshots/Screenshot-2025-08-29-224713.png" />
+<img width="959" height="650" alt="Screenshot 2025-08-29 224713" src="https://github.com/user-attachments/assets/07cefe3d-542f-426b-8fc0-57a6ac1aca79" />
+
 
 ---
 
