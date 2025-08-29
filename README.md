@@ -1,31 +1,43 @@
-# 📧 Email AutoWriter
+# 📧 Email AutoWriter  
+*AI-powered email reply generator built with Spring Boot, HTML/JS, and a Gmail Chrome Extension.*  
 
-A **Spring Boot + HTML/JS frontend + Gmail Chrome Extension** project that generates **professional email replies** using **Google Gemini API**.  
-It allows you to run a standalone web UI **or** install as a **Gmail extension** for live email reply generation.
-
----
-
-## 🚀 Features
-- Backend: Spring Boot REST API
-- Frontend: HTML, CSS, JavaScript
-- Gmail Integration: Chrome Extension
-- AI-powered email reply generation (via Google Gemini API)
-- Tone customization (`formal`, `friendly`, `concise`, etc.)
-- Works as:
-  - A **web app**
-  - A **Gmail extension**
+![Java](https://img.shields.io/badge/Java-21-orange?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.5-brightgreen?logo=springboot)
+![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-blue)
+![Extension](https://img.shields.io/badge/Chrome-Extension-lightgrey?logo=googlechrome)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## ⚙️ Tech Stack
-- **Java 21**, **Spring Boot 3.4.5**, **Maven**
-- **HTML / CSS / JavaScript**
-- **Google Gemini API**
-- **Chrome Extension (Manifest V3)**
+## 📸 Preview
+<img width="1148" height="857" alt="Email AutoWriter Screenshot" src="./snapshots/Screenshot-2025-08-29-224713.png" />
 
 ---
-## 📸 Snapshot
-![Project Screenshot](./snapshots/Screenshot-2025-08-29-224713.png)
+
+## ✨ Features
+- 📧 **AI-powered email reply generation** (Google Gemini API)  
+- 🎨 Tone customization → `formal`, `friendly`, `concise`, etc.  
+- 🖥 Works both as a **standalone web app** and a **Gmail Chrome Extension**  
+- ⚡ Fast & lightweight UI (HTML, CSS, JavaScript)  
+- 🔌 REST API backend built on **Spring Boot**  
+- 📂 Easy integration with Gmail via **Chrome Extension**  
+
+---
+
+## 🛠 Tech Stack
+### Backend:
+- Java 21  
+- Spring Boot 3.4.5  
+- Maven  
+
+### Frontend:
+- HTML5  
+- CSS3  
+- JavaScript (Fetch API for backend calls)  
+
+### Integration:
+- Google Gemini API  
+- Chrome Extension (Manifest V3) 
 
 ## 📂 Project Structure
 email-autowriter/
