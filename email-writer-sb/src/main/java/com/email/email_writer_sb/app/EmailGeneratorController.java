@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin(origins = "https://email-auto-writer-sbig-7rrl0s8bv.vercel.app/")
 @RequestMapping("/api/email")
 @AllArgsConstructor
 @CrossOrigin(origins = "*")
