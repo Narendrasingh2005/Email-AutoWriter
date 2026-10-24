@@ -9,7 +9,6 @@ function createAIButton() {
     button.setAttribute('data-tooltip','Generate AI Reply');
     return button;
 }
-
 function getEmailContent() {
     const selectors = [
         '.h7',
